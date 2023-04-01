@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <div>
+    <black-textbox></black-textbox>
+  </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BlackTextbox from './components/BlackTextbox.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BlackTextbox
   }
 }
 </script>
